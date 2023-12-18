@@ -260,9 +260,11 @@ img{
     .items {
         width: 100vw;
         bottom: 8em;
+        filter: blur(0);
     }
     .item{
         padding-bottom: 2vw;
+        filter: blur(0);
 
     }
     .overlay{
