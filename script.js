@@ -195,7 +195,7 @@ function isItem(target) {
     })
     
 
-    gsap.to(items, { opacity: 1, y: 0, x: 20, duration: 0.2, stagger: 0.2 });
+    gsap.to(items, { opacity: 1, filter: "blur(0px)", duration: 0.2, stagger: 0.2 });
   })
 
 
@@ -207,7 +207,7 @@ function isItem(target) {
       ease: "Power2.easeInOut"
     })
 
-    gsap.to(items, { opacity: 0, y: -30, x: 0, duration: 0.5, stagger: 0.2 });
+    gsap.to(items, { opacity: 1,  filter: "blur(10px)", duration: 0.5, stagger: 0.2 });
   })
 
   
