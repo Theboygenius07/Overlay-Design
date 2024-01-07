@@ -254,7 +254,7 @@ img{
 
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
 
 
     .bigContainer{
@@ -304,8 +304,8 @@ img{
         width: 100vw;
         max-height: 80vh;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
+        justify-content: center;
+       
         padding: 2em;
     }
 
