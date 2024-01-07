@@ -278,7 +278,10 @@ img{
         width: 100vw;
         bottom: 8em;
         filter: blur(0);
-        padding: right 4em;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
     }
     .item{
         padding-bottom: 2.5vw;
@@ -302,11 +305,11 @@ img{
 
     .container{
         width: 100vw;
-        max-height: 80vh;
+        max-height: 100vh;
         display: flex;
         justify-content: center;
        
-        padding: 2em;
+        /* padding: 2em; */
     }
 
     .items{
@@ -314,7 +317,7 @@ img{
         width: 100%;
         display: flex;
         flex-direction: column;
-    
+    padding-left: 2em;
     }
     
 
@@ -322,15 +325,26 @@ img{
         height: 30vh;
     }
 
-    .text{
- top: 50%;
- right: 50%;
- transform: translate(50%, -50%);
- /* height: 70vw; */
- width: 100;
- overflow: visible;
- z-index: 99;
- position: absolute;
+
+
 }
 
+@media (max-width: 700px){
+
+    .container{
+        width: 100vw;
+        max-height: 100vh;
+        display: flex;
+        justify-content: center;
+       
+        padding: 0;
+    }
+    .items{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    padding: 2em;
+    
+    }
 }
